@@ -11,7 +11,8 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
+    const message = `Name: ${formData.name}%0APhone: ${formData.number}%0AEmail: ${formData.email}%0AMessage: ${formData.message}`;
+    window.open(`https://wa.me/+15125753440?text=${message}`, '_blank');
   };
 
   const handleChange = (e) => {
