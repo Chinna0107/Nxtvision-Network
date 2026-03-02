@@ -1,5 +1,5 @@
 const ScrollingBanner = () => {
-  const text = "Seamless integration with FTTx, 5G, and broadband expansions. Startech is at the forefront of building the next generation of fiber infrastructure. Startech Networks Inc is an IT audit compliance with ISO 27001 certifications that demonstrate compliance with recognized standards. We ensure that ";
+  const text = "Seamless integration with FTTx, 5G, and broadband expansions. NXT VISION is at the forefront of building the next generation of fiber infrastructure. NXT VISION Networks Inc is an IT audit compliance with ISO 27001 certifications that demonstrate compliance with recognized standards. We ensure that ";
 
   return (
     <div style={{

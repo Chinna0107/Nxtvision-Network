@@ -7,14 +7,14 @@ const Careers = () => {
   const location = useLocation();
   
   const hrPhilosophyRef = useRef(null);
-  const lifeAtStartechRef = useRef(null);
+  const lifeAtNxtvisionRef = useRef(null);
   const talentDevRef = useRef(null);
   const openingsRef = useRef(null);
 
   useEffect(() => {
     const sectionMap = {
       '/hr-philosophy': hrPhilosophyRef,
-      '/life-at-nxtvision': lifeAtStartechRef,
+      '/life-at-nxtvision': lifeAtNxtvisionRef,
       '/talent-development': talentDevRef,
       '/current-openings': openingsRef
     };
@@ -52,7 +52,7 @@ const Careers = () => {
         <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
           <h2 style={{ fontSize: '2.5rem', fontWeight: 'bold', color: '#0066cc', marginBottom: '1rem' }}>5m+ Trusted Our Clients</h2>
           <p style={{ fontSize: '1.1rem', lineHeight: '1.8', color: '#333', maxWidth: '900px', margin: '0 auto' }}>
-            People have always been the strength of Startech Networks, and the reason for its success. In Startech Networks Inc., the Human Resources function shoulders this responsibility perfectly and plays a critical role in realizing business objectives by leading organizational change, fostering innovation.
+            People have always been the strength of NXT VISION Networks, and the reason for its success. In NXT VISION Networks Inc., the Human Resources function shoulders this responsibility perfectly and plays a critical role in realizing business objectives by leading organizational change, fostering innovation.
           </p>
           <p style={{ fontSize: '1.1rem', lineHeight: '1.8', color: '#333', maxWidth: '900px', margin: '1rem auto 0' }}>
             Imagine delivering services that has the potential to change the world. Working with us, you will have a positive impact on people's lives and help to overcome some of the world's most pressing challenges.
@@ -62,9 +62,9 @@ const Careers = () => {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem', marginBottom: '6rem' }}>
           {[
             { icon: <FaUsers size={50} />, title: 'HR Philosophy', desc: 'Today, Human Resources are a strategic business partner supporting business objectives.', link: '/hr-philosophy' },
-            { icon: <FaLightbulb size={50} />, title: 'Life at Startech Networks', desc: 'We here at Startech Networks work with an aim to create a better today, a better tomorrow for our society', link: '/life-at-nxtvision' },
-            { icon: <FaChartLine size={50} />, title: 'Talent Development', desc: 'The broad objective of Talent Development at Startech Networks is to develop and enhance the organization\'s self-renewing ability.', link: '/talent-development' },
-            { icon: <FaBriefcase size={50} />, title: 'Current Openings', desc: 'Could you be our next Startech member?', link: '/current-openings' }
+            { icon: <FaLightbulb size={50} />, title: 'Life at NXT VISION Networks', desc: 'We here at NXT VISION Networks work with an aim to create a better today, a better tomorrow for our society', link: '/life-at-nxtvision' },
+            { icon: <FaChartLine size={50} />, title: 'Talent Development', desc: 'The broad objective of Talent Development at NXT VISION Networks is to develop and enhance the organization\'s self-renewing ability.', link: '/talent-development' },
+            { icon: <FaBriefcase size={50} />, title: 'Current Openings', desc: 'Could you be our next NXT VISION member?', link: '/current-openings' }
           ].map((item, idx) => (
             <Link
               key={idx}
@@ -140,7 +140,7 @@ const Careers = () => {
                     HR Philosophy Today, Human Resources are a strategic business partner supporting business objectives. We work with the Senior Management team to help set the business direction, performance expectations and contribute to decide the strategy and tactics required to achieve business goals.
                   </p>
                   <p style={{ fontSize: '1.1rem', lineHeight: '1.8', color: '#333' }}>
-                    In Startech Networks, the Human Resources function plays a critical role in realizing business objectives by leading organizational change and mobilizing talent to improve the business' competitive edge.
+                    In NXT VISION Networks, the Human Resources function plays a critical role in realizing business objectives by leading organizational change and mobilizing talent to improve the business' competitive edge.
                   </p>
                 </div>
               ) : (
@@ -176,18 +176,18 @@ const Careers = () => {
           </div>
         </div>
 
-        <div ref={lifeAtStartechRef} style={{ marginBottom: '6rem', scrollMarginTop: '150px' }}>
+        <div ref={lifeAtNxtvisionRef} style={{ marginBottom: '6rem', scrollMarginTop: '150px' }}>
           <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
-            <h2 style={{ fontSize: '3rem', fontWeight: 'bold', color: '#0066cc', marginBottom: '0.5rem' }}>Life at Startech Networks</h2>
+            <h2 style={{ fontSize: '3rem', fontWeight: 'bold', color: '#0066cc', marginBottom: '0.5rem' }}>Life at NXT VISION Networks</h2>
             <div style={{ width: '100px', height: '4px', background: 'linear-gradient(90deg, #0066cc, #00ccff)', margin: '0 auto 1rem' }}></div>
             <p style={{ fontSize: '1.2rem', color: '#666', fontStyle: 'italic' }}>The best way to predict the future is to create it – Peter Drucker</p>
           </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '3rem', alignItems: 'center', padding: '2rem', background: 'linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%)', borderRadius: '12px', boxShadow: '0 8px 24px rgba(0,0,0,0.08)' }}>
-            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600" alt="Life at Startech" style={{ width: '100%', borderRadius: '8px' }} />
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600" alt="Life at NXT VISION" style={{ width: '100%', borderRadius: '8px' }} />
             <div>
               <p style={{ fontSize: '1rem', lineHeight: '1.8', color: '#333', marginBottom: '1rem' }}>
-                We here at Startech Networks work with an aim to create a better today, a better tomorrow for our society. Working on some of the most advanced wireless networks in the world has never been so exciting and inspirational before.
+                We here at NXT VISION Networks work with an aim to create a better today, a better tomorrow for our society. Working on some of the most advanced wireless networks in the world has never been so exciting and inspirational before.
               </p>
               <p style={{ fontSize: '1rem', lineHeight: '1.8', color: '#333', marginBottom: '1rem' }}>
                 Our employees work around the clock testing new sites, optimizing network performance, ensuring public safety, and helping our customers improve end user experience.
@@ -196,7 +196,7 @@ const Careers = () => {
                 Quality of delivery and safety of our employees is something that we place first and focus our operations on. Being a services company, employees are our biggest asset, and we strive to provide them with a conducive working environment.
               </p>
               <p style={{ fontSize: '1rem', lineHeight: '1.8', color: '#333' }}>
-                We embrace diversity and encourage everyone to challenge their caliber, to help Startech Networks meet or exceed its customer expectations.
+                We embrace diversity and encourage everyone to challenge their caliber, to help NXT VISION Networks meet or exceed its customer expectations.
               </p>
             </div>
           </div>
@@ -213,7 +213,7 @@ const Careers = () => {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '3rem', alignItems: 'center', padding: '2rem', background: 'linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%)', borderRadius: '12px', boxShadow: '0 8px 24px rgba(0,0,0,0.08)' }}>
             <div>
               <p style={{ fontSize: '1rem', lineHeight: '1.8', color: '#333', marginBottom: '1rem' }}>
-                The broad objective of Talent Development at Startech Networks is to develop and enhance the organization's self-renewing ability.
+                The broad objective of Talent Development at NXT VISION Networks is to develop and enhance the organization's self-renewing ability.
               </p>
               <p style={{ fontSize: '1rem', lineHeight: '1.8', color: '#333', marginBottom: '1rem' }}>
                 The Talent management system aims at identifying people with potential; developing their talent through a structured program of professional and personal growth; and thereby attaining the objective of retaining the high-potential performers/leaders.
@@ -222,7 +222,7 @@ const Careers = () => {
                 The employee development process is in line with business strategy and caters to the Succession Planning objective of the organization.
               </p>
               <p style={{ fontSize: '1rem', lineHeight: '1.8', color: '#333' }}>
-                The Learning & Development initiatives at Startech Networks are committed to deliver benefits to the employees by ensuring complete satisfaction with need based, timely and high-quality training solutions.
+                The Learning & Development initiatives at NXT VISION Networks are committed to deliver benefits to the employees by ensuring complete satisfaction with need based, timely and high-quality training solutions.
               </p>
             </div>
             <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600" alt="Talent Development" style={{ width: '100%', borderRadius: '8px' }} />
@@ -235,7 +235,7 @@ const Careers = () => {
             <div style={{ width: '100px', height: '4px', background: 'linear-gradient(90deg, #0066cc, #00ccff)', margin: '0 auto 1rem' }}></div>
             <p style={{ fontSize: '1.2rem', color: '#666', marginBottom: '1rem' }}>We don't offer a job, we offer a career.</p>
             <p style={{ fontSize: '1rem', color: '#333', maxWidth: '800px', margin: '0 auto' }}>
-              People have always been the strength of Startech Networks, and the reason for its success. Recognizing this, the company gives great importance to recruiting the right people and providing them with the support to reach their own goals as well as those of Startech Networks.
+              People have always been the strength of NXT VISION Networks, and the reason for its success. Recognizing this, the company gives great importance to recruiting the right people and providing them with the support to reach their own goals as well as those of NXT VISION Networks.
             </p>
           </div>
 

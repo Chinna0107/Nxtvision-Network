@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 const BlogSection = () => {
   const blogs = [
     {
-      title: 'Connected for Tomorrow, Powered by Startech Networks',
+      title: 'Connected for Tomorrow, Powered by NXT VISION Networks',
       image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400'
     },
     {
-      title: 'Startech Networks: A People-First HR Philosophy',
+      title: 'NXT VISION Networks: A People-First HR Philosophy',
       image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400'
     },
     {

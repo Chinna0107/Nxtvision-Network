@@ -9,12 +9,12 @@ const BlogDetail = () => {
       image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=600&fit=crop",
       content: (
         <>
-          <p>Startech Networks is driven by a clear vision to become North America's most trusted telecom and data/AI network infrastructure partner, recognized for engineering excellence, scalable execution, and the reliability that powers the world's most critical connections.</p>
+          <p>NXT VISION Networks is driven by a clear vision to become North America's most trusted telecom and data/AI network infrastructure partner, recognized for engineering excellence, scalable execution, and the reliability that powers the world's most critical connections.</p>
           
           <p>We deliver exceptional outcomes by enabling a seamlessly connected world where wireless, fiber, and data center networks support public safety, digital business, and high-quality voice and data experiences, built on a commitment to quality, speed, and integrity.</p>
           
           <h2>Our Mission</h2>
-          <p>Startech Networks designs, builds, optimizes, and sustains the network and technology infrastructure that keeps businesses and communities connected.</p>
+          <p>NXT VISION Networks designs, builds, optimizes, and sustains the network and technology infrastructure that keeps businesses and communities connected.</p>
           
           <p>Across wireless, fiber, data center infrastructure, DAS, and small cells, we support the full network lifecycle – from planning and deployment to testing, optimization, and ongoing operations. With nationwide reach, global delivery capabilities, and deep industry expertise, we deliver solutions that are:</p>
           

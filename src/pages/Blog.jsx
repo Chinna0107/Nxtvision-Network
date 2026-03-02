@@ -8,19 +8,19 @@ const Blog = () => {
     {
       id: 1,
       title: "Our Vision to Lead. Our Mission to Connect",
-      excerpt: "Startech Networks is driven by a clear vision to become North America's most trusted telecom and data/AI network infrastructure partner,...",
+      excerpt: "NXT VISION Networks is driven by a clear vision to become North America's most trusted telecom and data/AI network infrastructure partner,...",
       image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=500&fit=crop"
     },
     {
       id: 2,
       title: "Powering Connectivity with Reliable OSP Fiber Engineering",
-      excerpt: "How Startech Networks Builds the Backbone of Digital Infrastructure As demand for high-speed broadband, 5G backhaul, cloud services, and smart...",
+      excerpt: "How NXT VISION Networks Builds the Backbone of Digital Infrastructure As demand for high-speed broadband, 5G backhaul, cloud services, and smart...",
       image: "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=800&h=500&fit=crop"
     },
     {
       id: 3,
       title: "Seamless Network Integration for Reliable Connectivity",
-      excerpt: "Startech Networks provides comprehensive network integration services designed to create efficient, scalable, and high-performance communication systems. By combining technical expertise...",
+      excerpt: "NXT VISION Networks provides comprehensive network integration services designed to create efficient, scalable, and high-performance communication systems. By combining technical expertise...",
       image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=500&fit=crop"
     },
     {
@@ -32,7 +32,7 @@ const Blog = () => {
     {
       id: 5,
       title: "Seamless Network Integration for Reliable Connectivity",
-      excerpt: "Startech Networks provides comprehensive network integration services designed to create efficient, scalable, and high-performance communication systems. By combining technical expertise...",
+      excerpt: "NXT VISION Networks provides comprehensive network integration services designed to create efficient, scalable, and high-performance communication systems. By combining technical expertise...",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop"
     },
     {
@@ -43,13 +43,13 @@ const Blog = () => {
     },
     {
       id: 7,
-      title: "Why choose Startech Networks for your end-to-end Network Integration Services?",
-      excerpt: "Startech Networks Inc delivers comprehensive Network Integration Services designed to support fast, efficient, and scalable telecom deployments. With deep engineering...",
+      title: "Why choose NXT VISION Networks for your end-to-end Network Integration Services?",
+      excerpt: "NXT VISION Networks Inc delivers comprehensive Network Integration Services designed to support fast, efficient, and scalable telecom deployments. With deep engineering...",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop"
     },
     {
       id: 8,
-      title: "Work-Life Balance at Startech Networks Inc.",
+      title: "Work-Life Balance at NXT VISION Networks Inc.",
       excerpt: "In the fast-paced world of telecom engineering, where teams manage 5G rollouts, deployments, and network operations, maintaining balance isn't easy....",
       image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=500&fit=crop"
     }

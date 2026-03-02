@@ -34,6 +34,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="/company-profile" element={<About />} />
         <Route path="/mission-values" element={<About />} />
         <Route path="/customers" element={<About />} />
@@ -53,7 +54,8 @@ function App() {
         <Route path="/staffing" element={<Services />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogDetail />} />
-        <Route path="/why-startech" element={<WhyStartech />} />
+        <Route path="/why-nxtvision" element={<WhyStartech />} />
+        {/* <Route path="/why-nxtvision" element={<WhyStartech />} /> */}
         <Route path="/contact" element={<Contact />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/disclaimer" element={<Disclaimer />} />

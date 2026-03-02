@@ -224,7 +224,7 @@ const ServicesOverview = () => {
 
             <div style={{ marginBottom: '2rem' }}>
               <h4 style={{ fontWeight: 700, marginBottom: '0.5rem', color: '#333' }}>Send Us Email</h4>
-              <a href="mailto:info@startechnetworks.com" style={{ color: '#0066cc', textDecoration: 'none' }}>info@startechnetworks.com</a>
+              <a href="mailto:info@nxtvisionnetworks.com" style={{ color: '#0066cc', textDecoration: 'none' }}>info@nxtvisionnetworks.com</a>
             </div>
 
             <div style={{ marginBottom: '2rem' }}>

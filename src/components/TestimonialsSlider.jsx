@@ -7,14 +7,14 @@ import 'slick-carousel/slick/slick-theme.css';
 const TestimonialsSlider = () => {
   const testimonials = [
     { text: 'Thanks for all your support and accommodating last minutes requests to help our project meet the targets!', company: 'Videotron' },
-    { text: 'Thanks to you and your team for all the work you do. Startech Team members are doing EXCELLENT work for us in the Minneapolis market.', company: 'Ericsson Inc.' },
+    { text: 'Thanks to you and your team for all the work you do. NXT VISION Team members are doing EXCELLENT work for us in the Minneapolis market.', company: 'Ericsson Inc.' },
     { text: 'I would like to thank you and your entire organization for supporting us in different projects, throughout this year....', company: 'Manenir', readMore: true },
-    { text: 'Please pass my thanks to Startech Team for driving the target for completion. I do appreciate your efforts.', company: 'Ericsson Inc.' },
+    { text: 'Please pass my thanks to NXT VISION Team for driving the target for completion. I do appreciate your efforts.', company: 'Ericsson Inc.' },
     { text: 'After you finish these clusters, please add another feather to your cap. Thanks for your team\'s support!', company: 'Dish' },
     { text: 'Thanks for all your support and accommodating last minutes requests to help our project meet the targets!', company: 'Videotron' },
-    { text: 'Thanks to you and your team for all the work you do. Startech Team members are doing EXCELLENT work for us in the Minneapolis market.', company: 'Ericsson Inc.' },
+    { text: 'Thanks to you and your team for all the work you do. NXT VISION Team members are doing EXCELLENT work for us in the Minneapolis market.', company: 'Ericsson Inc.' },
     { text: 'I would like to thank you and your entire organization for supporting us in different projects, throughout this year....', company: 'Manenir', readMore: true },
-    { text: 'Please pass my thanks to Startech Team for driving the target for completion. I do appreciate your efforts.', company: 'Ericsson Inc.' }
+    { text: 'Please pass my thanks to NXT VISION Team for driving the target for completion. I do appreciate your efforts.', company: 'Ericsson Inc.' }
   ];
 
   const settings = {

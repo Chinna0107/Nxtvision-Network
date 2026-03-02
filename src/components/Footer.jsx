@@ -49,29 +49,32 @@ const Footer = () => {
             <Link to="/data-center" style={{ color: '#ccc', textDecoration: 'none', fontSize: '0.9rem' }}>Data Center Services</Link>
             <Link to="/staffing" style={{ color: '#ccc', textDecoration: 'none', fontSize: '0.9rem' }}>Professional Staffing Services</Link>
           </div>
-          <h3 style={{ marginTop: '1.5rem', marginBottom: '1rem' }}>Careers</h3>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-            <Link to="/hr-philosophy" style={{ color: '#ccc', textDecoration: 'none', fontSize: '0.9rem' }}>HR Philosophy</Link>
-            <Link to="/life-at-nxtvision" style={{ color: '#ccc', textDecoration: 'none', fontSize: '0.9rem' }}>Life at Startech Networks</Link>
-            <Link to="/talent-development" style={{ color: '#ccc', textDecoration: 'none', fontSize: '0.9rem' }}>Talent Development</Link>
-            <Link to="/openings" style={{ color: '#ccc', textDecoration: 'none', fontSize: '0.9rem' }}>Current Openings</Link>
-          </div>
         </div>
 
         <div>
           <h3 style={{ marginBottom: '1rem' }}>Quick links</h3>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
             <Link to="/blog" style={{ color: '#ccc', textDecoration: 'none', fontSize: '0.9rem' }}>Blog</Link>
-            <Link to="/why-startech" style={{ color: '#ccc', textDecoration: 'none', fontSize: '0.9rem' }}>Why Startech</Link>
+            <Link to="/why-nxtvision" style={{ color: '#ccc', textDecoration: 'none', fontSize: '0.9rem' }}>Why NXT VISION</Link>
             <Link to="/contact" style={{ color: '#ccc', textDecoration: 'none', fontSize: '0.9rem' }}>Contact</Link>
             <Link to="/terms" style={{ color: '#ccc', textDecoration: 'none', fontSize: '0.9rem' }}>Terms & Conditions</Link>
             <Link to="/disclaimer" style={{ color: '#ccc', textDecoration: 'none', fontSize: '0.9rem' }}>Disclaimer</Link>
           </div>
         </div>
+
+        <div>
+          <h3 style={{ marginBottom: '1rem' }}>Careers</h3>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+            <Link to="/hr-philosophy" style={{ color: '#ccc', textDecoration: 'none', fontSize: '0.9rem' }}>HR Philosophy</Link>
+            <Link to="/life-at-nxtvision" style={{ color: '#ccc', textDecoration: 'none', fontSize: '0.9rem' }}>Life at NXT VISION Networks</Link>
+            <Link to="/talent-development" style={{ color: '#ccc', textDecoration: 'none', fontSize: '0.9rem' }}>Talent Development</Link>
+            <Link to="/openings" style={{ color: '#ccc', textDecoration: 'none', fontSize: '0.9rem' }}>Current Openings</Link>
+          </div>
+        </div>
       </div>
 
       <div style={{ borderTop: '1px solid #333', marginTop: '2rem', paddingTop: '1rem', textAlign: 'center', fontSize: '0.85rem', color: '#999' }}>
-        <p>Copyright © 2025 Startech Networks. All Rights Reserved.</p>
+        <p>Copyright © 2025 NXT VISION Networks. All Rights Reserved.</p>
         <p style={{ marginTop: '0.5rem' }}>Developed By: Aspiring Media Tech Pvt. Ltd.</p>
       </div>
     </footer>

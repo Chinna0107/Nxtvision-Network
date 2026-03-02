@@ -25,7 +25,7 @@ const CTASection = () => {
         color: '#fff' 
       }}>
         <h2 style={{ fontSize: '3rem', marginBottom: '1rem', fontWeight: 'bold' }}>
-          Get Started with StarTech Networks
+          Get Started with NXT VISION Networks
         </h2>
         <p style={{ fontSize: '1.3rem', marginBottom: '2rem' }}>
           Geared to serve all your network lifecycle needs

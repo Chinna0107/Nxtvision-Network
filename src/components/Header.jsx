@@ -89,13 +89,13 @@ const Header = () => {
                 borderRadius: '4px',
                 zIndex: 1001
               }}>
-                <Link to="/company-profile" style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Company Profile</Link>
-                <Link to="/mission-values" style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Our Mission & Values</Link>
-                <Link to="/customers" style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Our Customers</Link>
-                <Link to="/accomplishments" style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Our Accomplishments</Link>
-                <Link to="/leadership" style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Our Leadership</Link>
-                <Link to="/locations" style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Location of Services</Link>
-                <Link to="/certification" style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Certification</Link>
+                <Link to="/company-profile" onClick={() => setActiveDropdown(null)} style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Company Profile</Link>
+                <Link to="/mission-values" onClick={() => setActiveDropdown(null)} style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Our Mission & Values</Link>
+                <Link to="/customers" onClick={() => setActiveDropdown(null)} style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Our Customers</Link>
+                <Link to="/accomplishments" onClick={() => setActiveDropdown(null)} style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Our Accomplishments</Link>
+                <Link to="/leadership" onClick={() => setActiveDropdown(null)} style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Our Leadership</Link>
+                <Link to="/locations" onClick={() => setActiveDropdown(null)} style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Location of Services</Link>
+                <Link to="/certification" onClick={() => setActiveDropdown(null)} style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Certification</Link>
               </div>
             )}
           </div>
@@ -122,12 +122,12 @@ const Header = () => {
                 borderRadius: '4px',
                 zIndex: 1001
               }}>
-                <Link to="/services" style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>All Services</Link>
-                <Link to="/network-planning" style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Network Planning and Designing</Link>
-                <Link to="/network-integration" style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Network Integration</Link>
-                <Link to="/osp-fiber" style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>OSP Fiber</Link>
-                <Link to="/data-center" style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Data Center Services</Link>
-                <Link to="/staffing" style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Professional Staffing Services</Link>
+                <Link to="/services" onClick={() => setActiveDropdown(null)} style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>All Services</Link>
+                <Link to="/network-planning" onClick={() => setActiveDropdown(null)} style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Network Planning and Designing</Link>
+                <Link to="/network-integration" onClick={() => setActiveDropdown(null)} style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Network Integration</Link>
+                <Link to="/osp-fiber" onClick={() => setActiveDropdown(null)} style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>OSP Fiber</Link>
+                <Link to="/data-center" onClick={() => setActiveDropdown(null)} style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Data Center Services</Link>
+                <Link to="/staffing" onClick={() => setActiveDropdown(null)} style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Professional Staffing Services</Link>
               </div>
             )}
           </div>
@@ -152,15 +152,15 @@ const Header = () => {
                 borderRadius: '4px',
                 zIndex: 1001
               }}>
-                <Link to="/hr-philosophy" style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>HR Philosophy</Link>
-                <Link to="/life-at-nxtvision" style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Life at Nxtvision Networks</Link>
-                <Link to="/talent-development" style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Talent Development</Link>
+                <Link to="/hr-philosophy" onClick={() => setActiveDropdown(null)} style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>HR Philosophy</Link>
+                <Link to="/life-at-nxtvision" onClick={() => setActiveDropdown(null)} style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Life at Nxtvision Networks</Link>
+                <Link to="/talent-development" onClick={() => setActiveDropdown(null)} style={{ display: 'block', padding: '0.75rem 1.5rem', color: '#333', textDecoration: 'none', fontWeight: 700 }}>Talent Development</Link>
               </div>
             )}
           </div>
 
           <Link to="/blog" style={{ textDecoration: 'none', color: '#333', fontWeight: 700 }}>Blog</Link>
-          <Link to="/why-startech" style={{ textDecoration: 'none', color: '#333', fontWeight: 700 }}>Why Startech</Link>
+          <Link to="/why-nxtvision" style={{ textDecoration: 'none', color: '#333', fontWeight: 700 }}>Why NXT VISION</Link>
           <Link to="/contact" style={{ textDecoration: 'none', color: '#333', fontWeight: 700 }}>Contact Us</Link>
         </nav>
       </header>
@@ -214,7 +214,7 @@ const Header = () => {
           </div>
 
           <Link to="/blog" onClick={() => setMobileMenuOpen(false)} style={{ padding: '1rem 0', borderBottom: '2px solid #e0e0e0', textDecoration: 'none', color: '#333', fontWeight: 700, fontSize: '1.1rem', display: 'block' }}>Blog</Link>
-          <Link to="/why-startech" onClick={() => setMobileMenuOpen(false)} style={{ padding: '1rem 0', borderBottom: '2px solid #e0e0e0', textDecoration: 'none', color: '#333', fontWeight: 700, fontSize: '1.1rem', display: 'block' }}>Why Startech</Link>
+          <Link to="/why-nxtvision" onClick={() => setMobileMenuOpen(false)} style={{ padding: '1rem 0', borderBottom: '2px solid #e0e0e0', textDecoration: 'none', color: '#333', fontWeight: 700, fontSize: '1.1rem', display: 'block' }}>Why NXT VISION</Link>
           <Link to="/contact" onClick={() => setMobileMenuOpen(false)} style={{ padding: '1rem 0', textDecoration: 'none', color: '#333', fontWeight: 700, fontSize: '1.1rem', display: 'block' }}>Contact Us</Link>
         </nav>
       )}

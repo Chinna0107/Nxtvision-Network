@@ -25,7 +25,7 @@ const WhyStartech = () => {
               color: '#1a1a1a',
               letterSpacing: '-1px'
             }}>
-              Why Startech Networks?
+              Why NXT VISION Networks?
             </h1>
             <p className="why-subtitle" style={{ 
               fontSize: '1.3rem', 
@@ -53,7 +53,7 @@ const WhyStartech = () => {
                 <img 
                   className="why-image"
                   src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=700&h=800&fit=crop" 
-                  alt="Why Startech Networks"
+                  alt="Why NXT VISION Networks"
                   style={{ 
                     width: '100%', 
                     height: '550px', 
@@ -94,7 +94,7 @@ const WhyStartech = () => {
                   borderBottom: '3px solid #0066cc',
                   paddingBottom: '1rem'
                 }}>
-                  Why work with Startech Networks Inc.?
+                  Why work with NXT VISION Networks Inc.?
                 </h2>
                 <p style={{ 
                   fontSize: '1.15rem', 
@@ -110,7 +110,7 @@ const WhyStartech = () => {
                   color: '#444',
                   fontWeight: '500'
                 }}>
-                  We at Startech Networks make that decision easy for you, by assuring you that with Startech Networks you are in safe hands:
+                  We at NXT VISION Networks make that decision easy for you, by assuring you that with NXT VISION Networks you are in safe hands:
                 </p>
               </div>
 
