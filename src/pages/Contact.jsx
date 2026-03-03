@@ -35,7 +35,7 @@ const Contact = () => {
           <div style={{ padding: '2.5rem', background: '#f9f9f9', borderRadius: '8px', textAlign: 'center', boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }}>
             <FaPhone size={50} style={{ color: '#0066cc', marginBottom: '1.5rem' }} />
             <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem', color: '#333' }}>Phone</h3>
-            <p style={{ fontSize: '1.1rem', color: '#666' }}>+1 (555) 123-4567</p>
+            <p style={{ fontSize: '1.1rem', color: '#666' }}>+1 512-575-3440</p>
           </div>
           <div style={{ padding: '2.5rem', background: '#f9f9f9', borderRadius: '8px', textAlign: 'center', boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }}>
             <FaEnvelope size={50} style={{ color: '#0066cc', marginBottom: '1.5rem' }} />
@@ -45,7 +45,7 @@ const Contact = () => {
           <div style={{ padding: '2.5rem', background: '#f9f9f9', borderRadius: '8px', textAlign: 'center', boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }}>
             <FaMapMarkerAlt size={50} style={{ color: '#0066cc', marginBottom: '1.5rem' }} />
             <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem', color: '#333' }}>Location</h3>
-            <p style={{ fontSize: '1.1rem', color: '#666' }}>North America</p>
+            <p style={{ fontSize: '1.1rem', color: '#666' }}>Casper, Wyoming - 82609 , US</p>
           </div>
         </div>
 

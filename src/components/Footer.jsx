@@ -75,7 +75,7 @@ const Footer = () => {
 
       <div style={{ borderTop: '1px solid #333', marginTop: '2rem', paddingTop: '1rem', textAlign: 'center', fontSize: '0.85rem', color: '#999' }}>
         <p>Copyright © 2025 NXT VISION Networks. All Rights Reserved.</p>
-        <p style={{ marginTop: '0.5rem' }}>Developed By: Aspiring Media Tech Pvt. Ltd.</p>
+        <p style={{ marginTop: '0.5rem' }}>Developed By: StafArc</p>
       </div>
     </footer>
   );

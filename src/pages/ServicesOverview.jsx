@@ -180,7 +180,7 @@ const ServicesOverview = () => {
         <h3 style={{ fontSize: '1.8rem', fontWeight: 600, marginBottom: '1rem' }}>Get Consultations</h3>
         <p style={{ fontSize: '1.2rem', marginBottom: '1.5rem' }}>Geared to serve all your network lifecycle needs</p>
         <a href="tel:+19724640562" style={{ fontSize: '1.5rem', color: '#fff', textDecoration: 'none', fontWeight: 700 }}>
-          Please Call: +1-972-4640-562
+          Please Call: +1 512-575-3440
         </a>
       </div>
 
@@ -219,7 +219,7 @@ const ServicesOverview = () => {
             
             <div style={{ marginBottom: '2rem' }}>
               <h4 style={{ fontWeight: 700, marginBottom: '0.5rem', color: '#333' }}>Call For Inquiry</h4>
-              <a href="tel:+19724640562" style={{ color: '#0066cc', textDecoration: 'none', fontSize: '1.2rem' }}>+1-972-4640-562</a>
+              <a href="tel:+1 512-575-3440" style={{ color: '#0066cc', textDecoration: 'none', fontSize: '1.2rem' }}>+1-512-575-3440</a>
             </div>
 
             <div style={{ marginBottom: '2rem' }}>
@@ -230,8 +230,8 @@ const ServicesOverview = () => {
             <div style={{ marginBottom: '2rem' }}>
               <h4 style={{ fontWeight: 700, marginBottom: '0.5rem', color: '#333' }}>Location</h4>
               <p style={{ color: '#555', lineHeight: '1.6' }}>
-                <strong>USA:</strong> 5200 Tennyson Pkwy, Ste. 200 Plano TX 75024<br /><br />
-                <strong>Canada:</strong> 5484 Tomken Road, Ste. 14 Mississauga ON, L4W 2Z6
+                <strong>USA:</strong> Casper, Wyoming - 82609<br /><br />
+                {/* <strong>Canada:</strong> 5484 Tomken Road, Ste. 14 Mississauga ON, L4W 2Z6 */}
               </p>
             </div>
           </div>
