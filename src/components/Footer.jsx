@@ -74,8 +74,10 @@ const Footer = () => {
       </div>
 
       <div style={{ borderTop: '1px solid #333', marginTop: '2rem', paddingTop: '1rem', textAlign: 'center', fontSize: '0.85rem', color: '#999' }}>
-        <p>Copyright © 2025 NXT VISION Networks. All Rights Reserved.</p>
-        <p style={{ marginTop: '0.5rem' }}>Developed By: StafArc</p>
+        {/* <p>Copyright © 2025 NXT VISION Networks. All Rights Reserved.</p> */}
+        {/* <p style={{ color: '#FFF', fontSize: '0.9rem', letterSpacing: '0.5px', margin: 0 }}>© {new Date().getFullYear()} NXT vision netwoeks. All rights reserved.</p> */}
+         <p>Made with ❤️ by <a href="https://staffarc.in" target="_blank" rel="noopener noreferrer">StaffArc</a></p>
+        <p>© 2026 NXT VISION Networks. All rights reserved.</p>
       </div>
     </footer>
   );
