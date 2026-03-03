@@ -90,23 +90,26 @@ const Careers = () => {
         </div>
 
         <div ref={hrPhilosophyRef} style={{ marginBottom: '6rem', scrollMarginTop: '150px' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '3rem', alignItems: 'center' }}>
+          <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
+            <h2 style={{ fontSize: '3rem', fontWeight: 'bold', color: '#0066cc', marginBottom: '0.5rem' }}>HR Philosophy</h2>
+            <div style={{ width: '100px', height: '4px', background: 'linear-gradient(90deg, #0066cc, #00ccff)', margin: '0 auto 1rem' }}></div>
+            <p style={{ fontSize: '1.2rem', color: '#666', fontStyle: 'italic' }}>The best way to predict the future is to create it – Peter Drucker</p>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '3rem', alignItems: 'center', padding: '2rem', background: 'linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%)', borderRadius: '12px', boxShadow: '0 8px 24px rgba(0,0,0,0.08)' }}>
+            <img src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=600" alt="HR Philosophy" style={{ width: '100%', borderRadius: '8px' }} />
             <div>
-              <h2 style={{ fontSize: '3rem', fontWeight: 'bold', color: '#0066cc', marginBottom: '0.5rem' }}>HR Philosophy</h2>
-              <div style={{ width: '100px', height: '4px', background: 'linear-gradient(90deg, #0066cc, #00ccff)', marginBottom: '1rem' }}></div>
-              <p style={{ fontSize: '1.2rem', color: '#666', fontStyle: 'italic', marginBottom: '2rem' }}>The best way to predict the future is to create it – Peter Drucker</p>
-              
-              <div style={{ display: 'flex', gap: '1rem', marginBottom: '2rem', flexWrap: 'wrap' }}>
+              <div style={{ display: 'flex', gap: '0.75rem', marginBottom: '2rem' }}>
                 <button
                   onClick={() => setActiveTab('approach')}
                   className="btn-animate"
                   style={{
-                    padding: '1rem 2rem',
+                    padding: '0.75rem 1.25rem',
                     background: activeTab === 'approach' ? '#0066cc' : '#fff',
                     color: activeTab === 'approach' ? '#fff' : '#333',
                     border: '2px solid #0066cc',
                     borderRadius: '5px',
-                    fontSize: '1rem',
+                    fontSize: '0.9rem',
                     fontWeight: 'bold',
                     cursor: 'pointer',
                     transition: 'all 0.3s'
@@ -118,12 +121,12 @@ const Careers = () => {
                   onClick={() => setActiveTab('goals')}
                   className="btn-animate"
                   style={{
-                    padding: '1rem 2rem',
+                    padding: '0.75rem 1.25rem',
                     background: activeTab === 'goals' ? '#0066cc' : '#fff',
                     color: activeTab === 'goals' ? '#fff' : '#333',
                     border: '2px solid #0066cc',
                     borderRadius: '5px',
-                    fontSize: '1rem',
+                    fontSize: '0.9rem',
                     fontWeight: 'bold',
                     cursor: 'pointer',
                     transition: 'all 0.3s'
@@ -132,20 +135,18 @@ const Careers = () => {
                   Project Goals
                 </button>
               </div>
-
-              <div style={{ padding: '3rem', background: 'linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%)', borderRadius: '12px', boxShadow: '0 8px 24px rgba(0,0,0,0.08)' }}>
               {activeTab === 'approach' ? (
                 <div>
-                  <p style={{ fontSize: '1.1rem', lineHeight: '1.8', color: '#333', marginBottom: '1.5rem' }}>
+                  <p style={{ fontSize: '1rem', lineHeight: '1.8', color: '#333', marginBottom: '1.5rem' }}>
                     HR Philosophy Today, Human Resources are a strategic business partner supporting business objectives. We work with the Senior Management team to help set the business direction, performance expectations and contribute to decide the strategy and tactics required to achieve business goals.
                   </p>
-                  <p style={{ fontSize: '1.1rem', lineHeight: '1.8', color: '#333' }}>
+                  <p style={{ fontSize: '1rem', lineHeight: '1.8', color: '#333' }}>
                     In NXT VISION Networks, the Human Resources function plays a critical role in realizing business objectives by leading organizational change and mobilizing talent to improve the business' competitive edge.
                   </p>
                 </div>
               ) : (
                 <div>
-                  <p style={{ fontSize: '1.1rem', lineHeight: '1.8', color: '#333', marginBottom: '1.5rem' }}>
+                  <p style={{ fontSize: '1rem', lineHeight: '1.8', color: '#333', marginBottom: '1.5rem' }}>
                     In response to the rapid changes in the business environment and to get the best out of our people, Human Resources has defined the following strategies:
                   </p>
                   <ul style={{ fontSize: '1rem', lineHeight: '2', color: '#333', paddingLeft: '2rem', marginBottom: '2rem' }}>
@@ -157,7 +158,7 @@ const Careers = () => {
                     <li>Develop a best practice Human Resources function</li>
                     <li>Focus on continual process improvement</li>
                   </ul>
-                  <p style={{ fontSize: '1.1rem', fontWeight: 'bold', color: '#0066cc', marginBottom: '1rem' }}>We continually strive to:</p>
+                  <p style={{ fontSize: '1rem', fontWeight: 'bold', color: '#0066cc', marginBottom: '1rem' }}>We continually strive to:</p>
                   <ul style={{ fontSize: '1rem', lineHeight: '2', color: '#333', paddingLeft: '2rem' }}>
                     <li>Help people realize their potential</li>
                     <li>Create a work life balance</li>
@@ -170,9 +171,7 @@ const Careers = () => {
                   </ul>
                 </div>
               )}
-              </div>
             </div>
-            <img src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=600" alt="HR Philosophy" style={{ width: '100%', borderRadius: '8px' }} />
           </div>
         </div>
 
