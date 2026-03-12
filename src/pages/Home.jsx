@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { FaNetworkWired, FaCheckCircle, FaChartLine, FaPhone, FaSignal, FaClipboardCheck } from 'react-icons/fa';
 import TestimonialsSlider from '../components/TestimonialsSlider';
 import BlogSection from '../components/BlogSection';
@@ -11,6 +12,12 @@ const Home = () => {
 
   return (
     <>
+      <Helmet>
+        <title>NXT VISION Networks - Professional LTE & 5G Network Testing Services</title>
+        <meta name="description" content="NXT VISION Networks delivers reliable LTE and 5G drive testing, RF performance analysis, and network validation services to support wireless operators, OEMs, and telecom vendors across North America." />
+        <meta name="keywords" content="LTE testing, 5G testing, drive testing, network validation, RF optimization, VoLTE testing, network benchmarking" />
+        <link rel="canonical" href="https://nxtvisionnetworks.com/" />
+      </Helmet>
       <div style={{
         height: '100vh',
         width: '100vw',

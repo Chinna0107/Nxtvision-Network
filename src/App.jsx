@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
+import { HelmetProvider } from 'react-helmet-async'
 import ScrollingBanner from './components/ScrollingBanner'
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -28,10 +29,11 @@ function ScrollToTop() {
 
 function App() {
   return (
-    <BrowserRouter>
-      <ScrollToTop />
-      <ScrollingBanner />
-      <Header />
+    <HelmetProvider>
+      <BrowserRouter>
+        <ScrollToTop />
+        <ScrollingBanner />
+        <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -61,7 +63,8 @@ function App() {
         <Route path="/disclaimer" element={<Disclaimer />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+      </BrowserRouter>
+    </HelmetProvider>
   )
 }
 
